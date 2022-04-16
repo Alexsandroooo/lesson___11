@@ -1,0 +1,84 @@
+@import "null.css";
+
+body{
+	background: url(../img/duotone.png) no-repeat;
+	
+}
+.wraper{
+	height: 100%;
+}
+
+[class="header"] {
+	
+}
+.header__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 100px;
+	background: url(../img/Rectangle\ 3.png) no-repeat;
+	border-radius: 40px;
+	color: aliceblue;
+	
+	
+}
+
+.header__container::before{
+	content: url(../img/Stylize\ Circles.svg);
+	display: block;
+	position: absolute;
+	left: 1140px;
+	top:-150px;
+}
+.header__content {
+	
+	
+}
+.contant__tittle {
+	font-weight: 700;
+	font-size: 17px;
+	
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+}
+
+.contant__tittle::before{
+	content: url(../img/Overline\ Mark.svg);
+	min-width: 17px;
+	min-height: 17px;
+	position: relative;
+	top: 9px;
+	
+	
+}
+.contant__sub-title {
+	max-width: 580px;
+
+}
+.contant__sub-title h2{
+	font-weight: 900;
+	font-size: 33px;
+	margin: 0 0 30px 0;
+}
+.contant__text {
+	margin: 0 0 40px 0;
+	
+}
+.contant__text p {
+	font-size: 16px;
+}
+.contant__images {
+	position: absolute;
+	top: 320px;
+	left: 280px;
+	
+}
+.contant__images img{
+	 
+}
+.contant__picterys img {
+	border-radius: 40px;
+	position: relative;
+	left: 0;
+	top: 30px;
+	
+}
